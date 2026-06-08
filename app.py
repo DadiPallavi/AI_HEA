@@ -1,6 +1,6 @@
 import streamlit as st
 import requests as rq
-s_url=st.secrets("s_url")
+s_url=st.secrets["s_url"]
 st.title("AI Healthcare Assistant")
 
 symptom_tab,medicine_tab,hospital_tab=st.tabs(["Symptom","Medicine","Hospital"])
